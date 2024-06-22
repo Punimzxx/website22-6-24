@@ -1,0 +1,163 @@
+*{
+    margin: 0; 
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Prompt", sans-serif;
+}
+
+html{
+    scroll-behavior: smooth; 
+}
+.section-padding{
+    padding: 100px 0;
+}
+.section-header{
+    padding-bottom: 30px;
+}
+.navbar-brand img{
+    width: 50px;
+    height: auto;
+}
+.nav-area{
+    background: #2853af;
+}
+.navbar-nav .nav-link{
+    padding-right: 0;
+    padding-left: 0;
+    color: #fff !important;
+    font-weight: bold;
+}
+.nav-item{
+    color: #fff;
+    padding: 0 10px;
+    text-transform: uppercase;
+}
+   /* select */
+select {
+    width: 100px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    color: #333;
+}
+
+option {
+    background-color: #fff;
+    color: #333;
+    padding: 5px;
+}
+/* text */
+.product{
+    margin-top: 100px;
+    width: 100%;
+    padding: 20px;
+    border-radius: 8px;
+}
+.heading{
+    margin-bottom: 3rem;
+    font-size: 40px;
+    font-weight: bold;
+    padding-left: 25px;
+    border-left: 1rem solid #2853af;
+}
+.title{
+    margin-top: 20px;
+    text-align: center;
+}
+.title h1{
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 25px;
+    color: #2853af;
+}
+
+.title p{
+    font-size: 22px;
+    line-height: 1.5;
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+/* Products */
+.products {
+    width: 100%;
+    padding: 20px;
+    border-radius: 8px;
+}
+.products .container{
+    align-items: center;
+}
+.row {
+    display: flex;
+    justify-content: center;
+  }
+
+  .card {
+    margin-bottom: 20px;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    box-shadow: 0 4px 5px rgba(0, 0, 0, 0.3);
+  }
+  
+  .card-img-top {
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    width: 100%;
+    height: auto;
+  }
+  
+  .card-body {
+    padding: 15px;
+  }
+  
+  .card-title {
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 0;
+    color: #2853af;
+  }
+
+
+/*responsive css*/
+@media (max-width: 991px){
+    .section-header h2{
+        font-size: 35px;
+        font-weight: bold;
+    }
+    .navbar-toggler-icon i.fa{
+        color: #fff;
+    }
+    .row {
+        flex-direction: column;
+        align-items: center;
+      }
+    
+      .col-md-3 {
+        max-width: 100%;
+        flex: 1 1 100%;
+      }
+    
+      .card {
+        margin-bottom: 20px;
+      }
+}
+
+
+@media  (max-width: 767px){
+    .navbar-toggler-icon i.fa{
+        color: #fff;
+    }
+    .heading{
+        font-size: 30px;
+    }
+    .box {
+        flex: 1 1 100%;
+        max-width: 100%;
+    }
+    .py {
+        padding-top: 10px !important;
+        padding-bottom: 10px !important;
+      }
+}

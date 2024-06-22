@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Prompt", sans-serif;
+}
+html{
+    scroll-behavior: smooth;
+}
+.section-padding{
+    padding: 100px 0;
+}
+.section-header{
+    padding-bottom: 30px;
+}
+.navbar-brand img{
+    width: 50px;
+    height: auto;
+}
+.nav-area{
+    background: #2853af;
+}
+.navbar-nav .nav-link{
+    padding-right: 0;
+    padding-left: 0;
+    color: #fff !important;
+    font-weight: bold;
+}
+.nav-item{
+    color: #fff;
+    padding: 0 10px;
+    text-transform: uppercase;
+}
+
+
+
+
+/*responsive css*/
+@media only screen and(min-width: 768px) and (max-width: 991px){
+    .section-header h2{
+        font-size: 35px;
+        font-weight: bold;
+    }
+    .navbar-toggler-icon i.fa{
+        color: #fff;
+    }
+}
+
+@media only screen and(max-width: 767px){
+    .section-header h2{
+        font-size: 22px;
+        font-weight: bold;
+    }
+    .navbar-brand img{
+        width: 20px;
+ 
+    }
+    .navbar-toggler-icon i.fa{
+        color: #fff;
+    }
+    .container {
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .text-item {
+        margin-right: 20px; /* เพิ่มระยะห่างขวาเมื่อขนาดหน้าจอใหญ่ขึ้น */
+    }
+}
